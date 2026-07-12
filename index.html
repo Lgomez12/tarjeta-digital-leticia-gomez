@@ -291,8 +291,8 @@ img {
 
 .acciones-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: var(--espaciado-sm);
+grid-template-columns: repeat(2, minmax(160px, 180px));
+ justify-content: center;
 }
 
 .btn-accion {
@@ -606,7 +606,7 @@ img {
   }
 
   .acciones-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, minmax(160px, 180px));
   }
 
   .btn-accion {
@@ -671,7 +671,7 @@ img {
 
   /* Acciones en 5 columnas en desktop */
   .acciones-grid {
-    grid-template-columns: repeat(5, 1fr);
+   grid-template-columns: repeat(2, minmax(160px, 180px));
   }
 
   .btn-accion {
